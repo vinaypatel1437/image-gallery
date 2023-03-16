@@ -1,0 +1,71 @@
+.uploadModal {
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px -1px 4px 0 black;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    /* position: relative; */
+}
+.uploadImage {
+    background-color: white;
+    /* border: 1px solid blue; */
+    color: blue;
+    padding: 5px;
+    display: block;
+}
+.uploadTag {
+    display: block;
+    padding: 8px;
+    margin: 10px 0px;
+}
+.uploadActions {
+    width: 100%;
+    margin-top: 50px;
+}
+/* button {
+    display: blo;
+} */
+.uploadAction {
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.closeAction {
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.uploadCont {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.showModalButton {
+    cursor: pointer;
+    color: blue;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
